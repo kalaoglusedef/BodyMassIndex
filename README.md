@@ -10,4 +10,4 @@
 
 ## ScreenShot
 
-![Desktop](img/bký.png)
+![Desktop](img/bkÄ±.png)

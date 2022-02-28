@@ -13,6 +13,7 @@ $("#btn").click(function () {
     );
   } else {
     $("#conclusion").slideDown();
+    $("#conclusion").removeClass("alert-danger alert-warning alert-success");
     if (conclusion < 18.5) {
       $("#conclusion").text("Zayıfsınız.").addClass("alert alert-success");
     } else if (conclusion > 18.5 && conclusion < 24.9) {

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-**This project is built on HTML+JAVASCRIPT+SASS.** :tada:
+**This project is built on HTML+JavaScript+jQuery+Bootstrap+Sass. It is a responsive design.** :bicyclist:
 
 ## DEMO
 
- *Here's how it looks in Vercel:* [Vercel](https://body-mass-index.vercel.app/)
+ *Here's how it looks in Vercel:* [Vercel](https://body-mass-index.vercel.app/) :cherry_blossom:
 
 ## ScreenShot
 

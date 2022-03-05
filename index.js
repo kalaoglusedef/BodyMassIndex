@@ -2,7 +2,7 @@ const hesapla = (kg, boy) => {
   return kg / ((boy / 100) * (boy / 100));
 };
 
-$("#btn").click(function () {
+function btnHesap() {
   var kg = parseInt($("#weight").val());
   var boy = parseInt($("#height").val());
   const conclusion = hesapla(kg, boy);
@@ -29,6 +29,16 @@ $("#btn").click(function () {
         .text("İleri derecede obez (morbid obez).")
         .addClass("alert alert-danger");
     }
+  }
+}
+
+$("#btn").click(function () {
+  btnHesap();
+});
+
+$(document).keyup(function (event) {
+  if (event.keyCode === 13) {
+    btnHesap();
   }
 });
 
